@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo22',
+      title: 'Flutter Push',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Stack(
         children: [
           Align(
-            alignment: const Alignment(0, -0.8),
+            alignment: const Alignment(0, -0.9),
             child: Text(
               'Test your reaction speed',
               textAlign: TextAlign.center,
